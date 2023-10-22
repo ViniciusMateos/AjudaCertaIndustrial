@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AjudaCertaIndustrial.Views.Cadastro"
+             Title="Cadastro">
+
+    <ScrollView>
+        <Grid BackgroundColor="#F5A24A">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                    
+                    <ImageButton
+                        Grid.Column="0"
+                        Source="logo_minimalista"
+                        />
+
+                <Image
+                    Grid.Column="5"
+                    BackgroundColor="#F5A24A"
+                    HorizontalOptions="End"
+                    WidthRequest="50"
+                    Margin="0,0,20,0"
+                    Source="logo_minimalista"
+                    />
+            </Grid>
+
+            <Grid Grid.Row="1"
+                  Padding="20,40,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout 
+                    Spacing="40"
+                    VerticalOptions="Start">
+                <Label 
+                    x:Name="lblAntes"
+                    FontFamily="Inter"
+                    HorizontalTextAlignment="Center"
+                    FontSize="24"
+                    TextColor="#FFFFFF"
+                    WidthRequest="300"
+                    Text="Antes, precisamos de algumas informações suas"
+                 />
+
+                <Entry 
+                    x:Name="entNome"
+                    Placeholder="Digite seu nome"
+                    TextColor="White"
+                    PlaceholderColor="White"
+                    />
+
+                <Entry 
+                    x:Name="entGenero"
+                    Placeholder="Digite seu gênero"
+                    TextColor="White"
+                    PlaceholderColor="White"/>
+
+                    <DatePicker
+                        TextColor="White"/>
+
+                    <Button
+                        x:Name="btnContinuar"
+                        Grid.Row="3"
+                        Margin="0,100,0,0"
+                        Text="Continuar"
+                        FontSize="24"
+                        BackgroundColor="#DF6234"
+                        CornerRadius="25"
+                        WidthRequest="275"
+                        HeightRequest="80"
+                        />
+
+                </StackLayout>
+
+                
+            </Grid>
+            
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

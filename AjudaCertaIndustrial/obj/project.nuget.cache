@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E46BvK0G7w8mAujnEpi5N4+F3mm/O8gelCfw557doikwP2kbelOSaecv6HhMfS5jSRBWfEJvRDinCzjv+Phf5Q==",
+  "dgSpecHash": "7R/AIL3/Lm1u6tQWT4be5aqxnhpDgbOiL0W81l2TdNR9h4UwiU+qyfLgS9LbsmQSJ8dmWdBpJBLWHzz5FG1E5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Patrick\\source\\repos\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
+  "projectFilePath": "G:\\Vinicin\\AjudaCertaTCC\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Patrick\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Patrick\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

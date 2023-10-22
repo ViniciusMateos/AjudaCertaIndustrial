@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Views.TelaInicial();
+            MainPage = new Views.Cadastro();
         }
     }
 }
