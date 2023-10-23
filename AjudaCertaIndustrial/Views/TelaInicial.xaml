@@ -11,11 +11,9 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            
-
             <Image 
                 Grid.Row="0"
-                Source="logo_minimalista.png"
+                Source="logo_minimalista.svg"
                 BackgroundColor="#F4DFC9"
                 HeightRequest="100"/>
             

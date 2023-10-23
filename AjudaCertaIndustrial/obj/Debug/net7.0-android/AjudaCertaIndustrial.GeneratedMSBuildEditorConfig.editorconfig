@@ -50,6 +50,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views
 build_metadata.AdditionalFiles.TargetPath = Views\Cadastro.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cadastro.xaml
 
+[G:/Vinicin/AjudaCertaTCC/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Feed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.Feed.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Feed.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Feed.xaml
+
 [G:/Vinicin/AjudaCertaTCC/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/TelaInicial.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.TelaInicial.xaml

@@ -32,6 +32,9 @@
     <MauiXaml Update="Views\Cadastro.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Feed.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\TelaInicial.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

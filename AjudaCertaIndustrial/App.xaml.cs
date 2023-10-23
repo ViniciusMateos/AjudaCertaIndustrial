@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Views.Cadastro();
+            MainPage = new Views.Feed();
         }
     }
 }

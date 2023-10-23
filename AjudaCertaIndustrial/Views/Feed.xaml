@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AjudaCertaIndustrial.Views.Feed"
+             Title="Feed">
+
+    <ScrollView>
+        <Grid BackgroundColor="#F4DFC9">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0"
+                  BackgroundColor="#E98D2C">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <BoxView 
+                    Color="#F5A24A"
+                    Grid.Row="0"
+                    Grid.ColumnSpan="6"
+                    BackgroundColor="#F4DFC9"
+                    CornerRadius="0,0,20,20"
+                    />
+                
+                <ImageButton
+                    Grid.Column="0"
+                    Source="setavoltar.svg"
+                    HeightRequest="25"
+                    />
+
+                <Image
+                    Grid.Column="5"
+                    HorizontalOptions="End"
+                    WidthRequest="50"
+                    Margin="0,0,20,0"
+                    Source="logo_minimalista.svg"
+                    />
+            </Grid>
+
+
+            <Grid
+                Grid.Row="1"
+                Padding="15"
+                BackgroundColor="#F4DFC9">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0"                      
+                      Margin="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <BoxView
+                        Color="#F5AF66"
+                        CornerRadius="20"
+                        />
+
+                    <Grid Margin="5,5,5,0"
+                          RowSpacing="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="190"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+
+                        <ImageButton
+                            Grid.Row="0"
+                            CornerRadius="20"
+                            Source="feedestreladalva.svg"
+                            />
+
+                        <Label
+                            Grid.Row="1"
+	                        FontFamily="Inter"
+	                        HorizontalTextAlignment="Center"
+	                        FontSize="15"
+                            VerticalOptions="Center"
+	                        TextColor="#FFFFFF"
+	                        Text="@ong_estreladalva"
+                         />
+
+                        <Button
+                            Grid.Row="2"
+                            CornerRadius="20"
+                            WidthRequest="150"
+                            BackgroundColor="#F29676"
+                            />
+                        <Label 
+                            Grid.Row="2"
+                            Text="Doar"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            TextColor="White"/>
+
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+
+
+            <Grid
+                Grid.Row="2"
+                ColumnSpacing="10"
+                Padding="10,0,10,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton
+                    Grid.Column="0"
+                    Source="footermais.svg"
+                    HeightRequest="25"/>
+
+                <ImageButton
+                    Grid.Column="1"
+                    Source="footerchat.svg"/>
+
+                <ImageButton
+                    Grid.Column="2"
+                    Source="footerhome.svg"/>
+
+                <ImageButton
+                    Grid.Column="3"
+                    Source="footercifrao.svg"/>
+
+                <ImageButton
+                    Grid.Column="4"
+                    Source="footerperfil.svg"/>
+            </Grid>
+
+            
+
+
+        </Grid>    
+    </ScrollView>
+    
+</ContentPage>
