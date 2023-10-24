@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AjudaCertaIndustrial
-build_property.ProjectDir = C:\Projetos\AjudaCertaIndustrial\AjudaCertaIndustrial\
+build_property.ProjectDir = C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/App.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/AppShell.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/MainPage.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Resources/Styles/Colors.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Resources/Styles/Styles.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Agradecimentos.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Agradecimentos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.Agradecimentos.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Agradecimentos.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Agradecimentos.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Aviso.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Aviso.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.Aviso.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Aviso.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Aviso.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Cadastro.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Cadastro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.Cadastro.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Cadastro.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cadastro.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/DoacaoPix.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/DoacaoPix.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.DoacaoPix.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DoacaoPix.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DoacaoPix.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Feed.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/Feed.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.Feed.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Feed.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Feed.xaml
 
-[C:/Projetos/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/TelaInicial.xaml]
+[C:/Users/jvsrd/Downloads/AjudaCertaIndustrial/AjudaCertaIndustrial/Views/TelaInicial.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AjudaCertaIndustrial.Views.TelaInicial.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TelaInicial.xaml

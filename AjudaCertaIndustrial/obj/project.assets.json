@@ -24478,11 +24478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
+      "projectUniqueName": "C:\\Users\\jvsrd\\Downloads\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
       "projectName": "AjudaCertaIndustrial",
-      "projectPath": "C:\\Projetos\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
+      "projectPath": "C:\\Users\\jvsrd\\Downloads\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
       "packagesPath": "C:\\Users\\jvsrd\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\obj\\",
+      "outputPath": "C:\\Users\\jvsrd\\Downloads\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

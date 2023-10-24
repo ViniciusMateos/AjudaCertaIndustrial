@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6Re28kCH+J6JSu1Pgs+y1yzD/Fy30Jdlhl1/HViuaOgQm0+m6fZRAtqb7E3frewwipMUss9ie0FuqVp35cjUA==",
+  "dgSpecHash": "HZnIsO+Y6/TpXtGoy+o/YzQLgs9fVKioid/OPX1QRDZEXb22T2z13oemIkbylAAl18qnkeQ9PM4T0IwE2e7uIQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
+  "projectFilePath": "C:\\Users\\jvsrd\\Downloads\\AjudaCertaIndustrial\\AjudaCertaIndustrial\\AjudaCertaIndustrial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jvsrd\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\jvsrd\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
