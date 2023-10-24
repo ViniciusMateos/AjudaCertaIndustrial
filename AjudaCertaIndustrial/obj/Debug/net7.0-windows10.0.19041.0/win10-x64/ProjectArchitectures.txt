@@ -1,1 +1,1 @@
-G:\Vinicin\AjudaCertaTCC\AjudaCertaIndustrial\AjudaCertaIndustrial\AjudaCertaIndustrial.csproj;x64
+C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\AjudaCertaIndustrial.csproj;x64

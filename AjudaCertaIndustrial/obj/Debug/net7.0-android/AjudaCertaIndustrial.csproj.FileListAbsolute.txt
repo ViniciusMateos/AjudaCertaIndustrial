@@ -2114,7 +2114,6 @@ C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\qrcodepix.png
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\setavoltar.png
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
-C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\drawable\logo_minimalista.png
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\appicon.png
