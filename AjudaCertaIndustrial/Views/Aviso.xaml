@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AjudaCertaIndustrial.Views.Aviso"
+             Title="Aviso"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <Grid BackgroundColor="#F5A24A">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+                <RowDefinition Height="200"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton
+                        Grid.Column="0"
+                        Source="setavoltar.svg"
+                        HeightRequest="25"
+                        Command="{Binding DirecionarFeedCommand}"
+                        />
+
+                <Image
+                    Grid.Column="5"
+                    BackgroundColor="#F5A24A"
+                    HorizontalOptions="End"
+                    WidthRequest="50"
+                    Margin="0,0,20,0"
+                    Source="logo_minimalista.svg"
+                    />
+
+            </Grid>
+
+
+            <Grid
+                Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="88"/>
+                    <RowDefinition Height="35"/>
+                </Grid.RowDefinitions>
+
+                <Image 
+                    Grid.Row="0"
+                    Source="alertaicon.svg"
+                    WidthRequest="170"/>
+
+                <Label
+                    Grid.Row="1"
+	                FontFamily="Inter"
+	                HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Start"
+	                FontSize="25"
+	                TextColor="#A1200A"
+	                Text="Atenção!"
+                    Margin="0,0,0,0"
+                 />
+                
+            </Grid>
+
+            <Grid
+                Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Label 
+                    Grid.Row="0"
+	                FontFamily="Inter"
+	                HorizontalTextAlignment="Center"
+	                FontSize="20"
+                    WidthRequest="300"
+	                TextColor="#FFFFFF"
+                    VerticalTextAlignment="End"
+	                Text="Este aplicativo é apenas uma demonstração do que está sendo desenvolvido."
+                 />
+
+
+                <Label 
+                    Grid.Row="1"
+	                FontFamily="Inter"
+                    WidthRequest="300"
+	                HorizontalTextAlignment="Center"
+	                FontSize="20"
+	                TextColor="#FFFFFF"
+	                Text="Portanto, o dinheiro arrecadado será direcionado para nosso projeto de TCC. "
+                 />
+
+            </Grid>
+
+
+            <Label 
+                Grid.Row="3"
+	            FontFamily="Inter"
+	            HorizontalTextAlignment="Center"
+	            FontSize="22"
+                WidthRequest="350"
+	            TextColor="#FFFFFF"
+                VerticalTextAlignment="Center"
+	            Text="Se está de acordo com isso, clique no botão abaixo para confirmar."
+             />
+
+            <Button
+                x:Name="btnContinuar"
+                Grid.Row="4"
+                VerticalOptions="Start"
+                Text="Continuar"
+                FontSize="24"
+                BackgroundColor="#DF6234"
+                CornerRadius="25"
+                WidthRequest="275"
+                HeightRequest="80"
+                Command="{Binding DirecionarDoacaoCommand}"
+                />
+
+        </Grid>
+        
+    </ScrollView>
+</ContentPage>

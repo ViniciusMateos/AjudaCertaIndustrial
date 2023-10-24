@@ -1,4 +1,6 @@
 ﻿obj\Debug\net7.0-android\resizetizer\r\drawable\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\alertaicon.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\feedestreladalva.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\footerchat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\footercifrao.png
@@ -6,8 +8,11 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\footerhome.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\footermais.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\footerperfil.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\qrcodepix.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\setavoltar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\alertaicon.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\feedestreladalva.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\footerchat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\footercifrao.png
@@ -15,8 +20,11 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\footerhome.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\footermais.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\footerperfil.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\qrcodepix.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\setavoltar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\alertaicon.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\feedestreladalva.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\footerchat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\footercifrao.png
@@ -24,8 +32,11 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\footerhome.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\footermais.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\footerperfil.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\qrcodepix.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\setavoltar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\alertaicon.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\feedestreladalva.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\footerchat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\footercifrao.png
@@ -33,8 +44,11 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\footerhome.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\footermais.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\footerperfil.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\qrcodepix.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\setavoltar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\alertaicon.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\feedestreladalva.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\footerchat.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\footercifrao.png
@@ -42,6 +56,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\footerhome.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\footermais.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\footerperfil.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\logo_minimalista.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\qrcodepix.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\setavoltar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml

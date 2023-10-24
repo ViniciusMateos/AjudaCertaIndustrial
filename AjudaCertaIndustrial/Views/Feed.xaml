@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AjudaCertaIndustrial.Views.Feed"
-             Title="Feed">
+             Title="Feed"
+             NavigationPage.HasNavigationBar="False">
 
     <ScrollView>
         <Grid BackgroundColor="#F4DFC9">
@@ -14,14 +15,9 @@
 
             <Grid Grid.Row="0"
                   BackgroundColor="#E98D2C">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
 
                 <BoxView 
                     Color="#F5A24A"
@@ -30,18 +26,11 @@
                     BackgroundColor="#F4DFC9"
                     CornerRadius="0,0,20,20"
                     />
-                
-                <ImageButton
-                    Grid.Column="0"
-                    Source="setavoltar.svg"
-                    HeightRequest="25"
-                    />
 
                 <Image
-                    Grid.Column="5"
-                    HorizontalOptions="End"
+                    Grid.Row="0"
+                    HorizontalOptions="Center"
                     WidthRequest="50"
-                    Margin="0,0,20,0"
                     Source="logo_minimalista.svg"
                     />
             </Grid>
@@ -96,6 +85,9 @@
                             CornerRadius="20"
                             WidthRequest="150"
                             BackgroundColor="#F29676"
+                            BorderColor="White"
+                            BorderWidth="1"
+                            Command="{Binding DirecionarAvisoCommand}"
                             />
                         <Label 
                             Grid.Row="2"
@@ -112,9 +104,9 @@
 
 
             <Grid
-                Grid.Row="2"
-                ColumnSpacing="10"
-                Padding="10,0,10,15">
+    Grid.Row="2"
+    ColumnSpacing="10"
+    >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
@@ -123,29 +115,45 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <ImageButton
-                    Grid.Column="0"
-                    Source="footermais.svg"
-                    HeightRequest="25"/>
+                <BoxView Color="#F5AF66"
+             Grid.ColumnSpan="5"
+             Margin="10,0,10,0"/>
+
+                <BoxView Color="#F4DFC9"
+             Grid.ColumnSpan="5"
+             Margin="0,2,0,0"/>
 
                 <ImageButton
-                    Grid.Column="1"
-                    Source="footerchat.svg"/>
+        Grid.Column="0"
+        Source="footermais.svg"
+        HeightRequest="25"
+        Margin="0,5,0,5"
+        />
 
                 <ImageButton
-                    Grid.Column="2"
-                    Source="footerhome.svg"/>
+        Grid.Column="1"
+        Source="footerchat.svg"
+        Margin="0,5,0,5"/>
 
                 <ImageButton
-                    Grid.Column="3"
-                    Source="footercifrao.svg"/>
+        Grid.Column="2"
+        Source="footerhome.svg"
+        Margin="0,5,0,5"/>
 
                 <ImageButton
-                    Grid.Column="4"
-                    Source="footerperfil.svg"/>
+        Grid.Column="3"
+        Source="footercifrao.svg"
+        Margin="0,5,0,5"/>
+
+                <ImageButton
+        Grid.Column="4"
+        Source="footerperfil.svg"
+        Margin="0,5,0,5"/>
+
+
             </Grid>
 
-            
+
 
 
         </Grid>    

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AjudaCertaIndustrial.Views.Cadastro"
-             Title="Cadastro">
+             Title="Cadastro"
+             NavigationPage.HasNavigationBar="False">
 
     <ScrollView>
         <Grid BackgroundColor="#F5A24A">
@@ -25,6 +26,7 @@
                         Grid.Column="0"
                         Source="setavoltar.svg"
                         HeightRequest="25"
+                        Command="{Binding DirecionarInicioCommand}"
                         />
 
                 <Image
@@ -62,6 +64,7 @@
                 <Entry 
                     x:Name="entNome"
                     Placeholder="Digite seu nome"
+                    Text="{Binding Nome}"
                     TextColor="White"
                     PlaceholderColor="White"
                     />
@@ -70,9 +73,11 @@
                     x:Name="entGenero"
                     Placeholder="Digite seu gênero"
                     TextColor="White"
+                    Text="{Binding Genero}"
                     PlaceholderColor="White"/>
 
                     <DatePicker
+                        Date="{Binding Datanasc}"
                         TextColor="White"/>
 
                     <Button
@@ -85,6 +90,7 @@
                         CornerRadius="25"
                         WidthRequest="275"
                         HeightRequest="80"
+                        Command="{Binding RegistrarPessoaCommand}"
                         />
 
                 </StackLayout>

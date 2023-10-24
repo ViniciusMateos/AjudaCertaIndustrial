@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Views.Feed();
+            MainPage = new NavigationPage(new Views.TelaInicial());
         }
     }
 }

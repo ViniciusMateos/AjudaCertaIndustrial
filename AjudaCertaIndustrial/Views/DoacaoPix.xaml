@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AjudaCertaIndustrial.Views.DoacaoPix"
+             Title="DoacaoPix"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ScrollView>
+        <Grid
+            BackgroundColor="#F4DFC9">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="225"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0"
+                  BackgroundColor="#E98D2C">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <BoxView 
+                    Color="#F5A24A"
+                    Grid.Row="0"
+                    Grid.ColumnSpan="6"
+                    BackgroundColor="#F4DFC9"
+                    CornerRadius="0,0,20,20"
+                    />
+
+                <Image
+                    Grid.Row="0"
+                    HorizontalOptions="Center"
+                    WidthRequest="50"
+                    Source="logo_minimalista.svg"
+                    />
+            </Grid>
+
+            <Image
+                Source="qrcodepix.svg"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"/>
+
+            <Grid
+                Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <BoxView
+                    Grid.Row="0"
+                    Grid.RowSpan="4"
+                    Color="#F5A24A"
+                    CornerRadius="88,88,0,0"/>
+
+                <Grid
+                    Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Label 
+                        Grid.Row="0"
+	                    FontFamily="Inter"
+	                    HorizontalTextAlignment="Center"
+	                    FontSize="25"
+                        VerticalOptions="End"
+	                    TextColor="#DF6034"
+	                    Text="Chave:"
+                     />
+
+                    <Label 
+                        Grid.Row="1"
+	                    FontFamily="Inter"
+	                    HorizontalTextAlignment="Center"
+	                    FontSize="25"
+	                    TextColor="#FFFFFF"
+	                    Text="11 94641-0819"
+                     />
+                </Grid>
+
+                <Label
+                    Grid.Row="1"
+	                FontFamily="Inter"
+	                HorizontalTextAlignment="Center"
+	                FontSize="25"
+                    VerticalOptions="End"
+	                TextColor="#FFFFFF"
+	                Text="Após realizar o pix pode concluir clicando no botão abaixo"
+                 />
+
+                <Button
+                        x:Name="btnContinuar"
+                        Grid.Row="2"
+                        Text="Concluir"
+                        FontSize="24"
+                        BackgroundColor="#DF6234"
+                        CornerRadius="25"
+                        WidthRequest="275"
+                        HeightRequest="80"
+                        Command="{Binding DirecionarAgradCommand}"
+                        />            
+
+            </Grid>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
