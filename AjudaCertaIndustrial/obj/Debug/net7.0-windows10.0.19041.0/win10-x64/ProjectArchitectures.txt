@@ -1,1 +1,1 @@
-C:\Users\jvsrd\Downloads\AjudaCertaIndustrial\AjudaCertaIndustrial\AjudaCertaIndustrial.csproj;x64
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\AjudaCertaIndustrial.csproj;x64

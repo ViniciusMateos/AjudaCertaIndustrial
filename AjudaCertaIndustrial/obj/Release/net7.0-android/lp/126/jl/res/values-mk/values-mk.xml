@@ -1,0 +1,94 @@
+ference.MaxVersion" _locComment="" -->The MinVersion and MaxVersion attributes provide an optional range of versions of the missing dependency.
+                        It is up to the developer to ensure a MaxVersion if there are known breaking changes in a newer release.
+                      </xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Content" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>
+              <!-- _locID_text="Content" _locComment="" -->The Content section is used to describe the payload in the VSIX.
+              Not all content needs to be described.  Only the extension types need to be defined.
+            </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="ProjectTemplate" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="ProjectTemplate" _locComment="" -->The ProjectTemplate element is a directory name of where the project template zip appears in the VSIX.
+                    This must be a directory.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="ItemTemplate" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="ItemTemplate" _locComment="" -->The ItemTemplate element is a directory name of where the item template zip file appears in the VSIX.
+                    This must be a directory.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Assembly" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="Assembly" _locComment="" -->The Assembly element is used if there is a project or item template which requires a wizard.
+                    The Assembly value will point to the assembly file in the VSIX.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>                  
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="AssemblyName" type="xs:string" use="required">
+                        <xs:annotation>
+                          <xs:documentation>
+                            <!-- _locID_text="AssemblyName" _locComment="" -->The AssemblyName is the full strong name of the Assembly.  This is required to properly load the template wizard.
+                          </xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MefComponent" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="MefComponent" _locComment="" -->The MefComponent element defines the location of the MEF assembly in the VSIX package.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Sample" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="Sample" _locComment="" -->The Sample element defines the location of the sample folder in the VSIX package.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="ProgrammingLanguages" type="xs:string" use="optional">
+                        <xs:annotation>
+                          <xs:documentation>
+                            <!-- _locID_text="ProgrammingLanguages" _locComment="" -->The ProgrammingLanguages is the list of programming languages for projects in the sample.
+                          </xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                      <xs:attribute name="TargetFrameworks" type="xs:string" use="optional">
+                        <xs:annotation>
+                          <xs:documentation>
+                            <!-- _locID_text="TargetFrameworks" _locComment="" -->The TargetFrameworks is the list of target frameworks for projects in the sample.
+                          </xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>
+                      <xs:attribute name="CategorizationPath" type="xs:string" use="optional">
+                        <xs:annotation>
+                          <xs:documentation>
+                            <!-- _locID_text="CategorizationPath" _locComment="" -->The CategorizationPath is the path specifying the categorization in the new project dialog.
+                            The path segments should be separated by the '\' character.
+                          </xs:documentation>
+                        </xs:annotation>
+                      </xs:attribute>

@@ -1,0 +1,12 @@
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="ReleaseNotes" type="xs:string" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="ReleaseNotes" _locComment="" -->The ReleaseNotes element is a link to a website or file that gets launched in the client's browser (for web addresses) or a dialog
+                    or a dialog for local files when the user clicks the link the Extension Manager UI.  This provides the developer an opportunity to provide information about changes to the extension
+                    from version to version.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Icon" type="

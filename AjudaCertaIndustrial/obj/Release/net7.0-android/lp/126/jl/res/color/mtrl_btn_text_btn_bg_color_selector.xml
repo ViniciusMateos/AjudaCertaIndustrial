@@ -1,0 +1,17 @@
+e MefComponent element defines the location of the MEF assembly in the VSIX package.
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="Sample" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:documentation>
+                    <!-- _locID_text="Sample" _locComment="" -->The Sample element defines the location of the sample folder in the VSIX package.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="ProgrammingLanguages" type="xs:string" use="optional">
+                        <xs:annotation>
+                          <xs:documentation>
+                            <!-- _locID_text="Programm

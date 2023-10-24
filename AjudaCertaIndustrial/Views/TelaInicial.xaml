@@ -89,11 +89,10 @@
 	                Text="Venha fazer sua primeira doação!"
                     WidthRequest="200"
                  />
-
+    
                 <Button
                     x:Name="btnDoar"
                     Grid.Row="3"
-                    Text="Doar"
                     FontSize="24"
                     BackgroundColor="#DF6234"
                     CornerRadius="25"
@@ -101,6 +100,16 @@
                     HeightRequest="80"
                     Command="{Binding DirecionarCadastroCommand}"
                     />
+
+                <Label
+                    FontSize="24"
+                    Text="Doar"
+                    Grid.Row="3"
+                    TextColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+
             </Grid>
 
             

@@ -115,14 +115,22 @@
                 x:Name="btnContinuar"
                 Grid.Row="4"
                 VerticalOptions="Start"
-                Text="Continuar"
-                FontSize="24"
                 BackgroundColor="#DF6234"
                 CornerRadius="25"
                 WidthRequest="275"
                 HeightRequest="80"
                 Command="{Binding DirecionarDoacaoCommand}"
                 />
+
+            <Label
+                Grid.Row="4"
+                FontSize="24"
+                Margin="0,22"
+                TextColor="White"
+                Text="Continuar"
+                VerticalOptions="Start"                
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"/>
 
         </Grid>
         

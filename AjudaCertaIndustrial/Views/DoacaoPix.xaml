@@ -96,14 +96,23 @@
                 <Button
                         x:Name="btnContinuar"
                         Grid.Row="2"
-                        Text="Concluir"
                         FontSize="24"
                         BackgroundColor="#DF6234"
                         CornerRadius="25"
                         WidthRequest="275"
                         HeightRequest="80"
                         Command="{Binding DirecionarAgradCommand}"
-                        />            
+                        />
+
+                <Label
+                    Text="Concluir"
+                    Grid.Row="2"
+                    TextColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="24"
+                    />
+
 
             </Grid>
 

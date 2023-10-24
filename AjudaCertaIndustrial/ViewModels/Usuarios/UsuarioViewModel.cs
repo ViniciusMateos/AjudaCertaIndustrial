@@ -2,6 +2,7 @@
 using AjudaCertaIndustrial.Services.Pessoas;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,7 @@ namespace AjudaCertaIndustrial.ViewModels.Usuarios
         public UsuarioViewModel()
         {
             pService = new PessoaService();
+            _ = ObterGenero();
             InicializarCommands();
         }
 
@@ -39,6 +41,32 @@ namespace AjudaCertaIndustrial.ViewModels.Usuarios
         }
 
         #region AtributosPropriedades
+
+        private Genero generoSelecionado { get; set; }
+        public Genero GeneroSelecionado {
+            get { return generoSelecionado; }
+            set
+            {
+                if (value != null)
+                {
+                    generoSelecionado = value;
+                    OnPropertyChanged();
+                }
+            } }
+
+        private ObservableCollection<Genero> listaGenero { get; set; }
+        public ObservableCollection<Genero>  ListaGenero 
+        {
+            get { return listaGenero; }
+            set 
+            {
+                if(value != null)
+                {
+                    listaGenero = value;
+                    OnPropertyChanged();
+                }
+            } }
+
 
         private string nome = string.Empty;
         public string Nome
@@ -76,6 +104,25 @@ namespace AjudaCertaIndustrial.ViewModels.Usuarios
         #endregion
 
         #region Métodos
+
+        public async Task ObterGenero()
+        {
+            try
+            {
+                ListaGenero = new ObservableCollection<Genero>();
+                ListaGenero.Add(new Genero() { Id = 1, Descricao = "Masculino" });
+                ListaGenero.Add(new Genero() { Id = 2, Descricao = "Feminino" });
+                ListaGenero.Add(new Genero() { Id = 3, Descricao = "Outros" });
+                ListaGenero.Add(new Genero() { Id = 4, Descricao = "Prefiro não dizer" });
+                OnPropertyChanged(nameof(ListaGenero));
+
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Ops", ex.Message + " Detalhes: " + ex.InnerException, "Ok");
+            }
+            }
         
         public async Task RegistrarPessoa()
         {
@@ -83,7 +130,7 @@ namespace AjudaCertaIndustrial.ViewModels.Usuarios
             {
                 Pessoa p = new Pessoa();
                 p.Nome = Nome;
-                p.Genero = Genero;
+                p.Genero = generoSelecionado.Descricao;
                 p.DataNasc = Convert.ToDateTime(Datanasc);
 
                 Pessoa pRegistrado = await pService.PostRegistrarPessoaAsync(p);

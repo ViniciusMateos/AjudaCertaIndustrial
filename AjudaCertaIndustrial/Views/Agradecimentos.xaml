@@ -63,7 +63,6 @@
             x:Name="btnContinuar"
             Grid.Row="4"
             VerticalOptions="Center"
-            Text="Finalizar"
             FontSize="24"
             BackgroundColor="#DF6234"
             CornerRadius="25"
@@ -71,6 +70,14 @@
             HeightRequest="80"
             Command="{Binding ReiniciarCommand}"
             />
+
+            <Label
+                Text="Finalizar"
+                FontSize="24"
+                Grid.Row="4"
+                TextColor="White"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
 
         </Grid>
 

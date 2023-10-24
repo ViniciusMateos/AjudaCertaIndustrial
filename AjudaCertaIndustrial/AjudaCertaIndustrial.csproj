@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>AjudaCertaIndustrial</ApplicationTitle>
+		<ApplicationTitle>AjudaCerta</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.ajudacertaindustrial</ApplicationId>
@@ -28,6 +28,49 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-maccatalyst|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows10.0.19041.0|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <AndroidUseAapt2>True</AndroidUseAapt2>
+	  <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-maccatalyst|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows10.0.19041.0|AnyCPU'">
+	  <ApplicationId>AjudacCerta</ApplicationId>
+	  <ApplicationTitle>AjudaCerta</ApplicationTitle>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -46,7 +89,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" Resize="false"/>
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" Resize="false" />
 
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#F5A24A" BaseSize="128,128" />
 	</ItemGroup>

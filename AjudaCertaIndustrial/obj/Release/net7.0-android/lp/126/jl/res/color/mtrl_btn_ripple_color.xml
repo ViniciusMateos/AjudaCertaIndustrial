@@ -1,0 +1,25 @@
+        </xs:annotation>
+              </xs:element>
+              <xs:element name="AllowClientRole" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                  <xs:annotation>
+                      <xs:documentation>
+                          <!-- _locID_text="AllowClientRole" _locComment="" -->The AllowClientRole element specifies whether the extension is client enabled or not.
+                      </xs:documentation>
+                  </xs:annotation>
+              </xs:element>
+            </xs:all>
+            <xs:attribute name="Id" use="required">
+              <xs:annotation>
+                <xs:documentation>
+                  <!-- _locID_text="Identifier.Id" _locComment="" -->The Id attribute is a unique string for the extension.
+                  An extension with the same Id value and a newer version value of another extension is an update of that extension.
+                  The Id string can be any string and does not have to be a GUID.
+                </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="References" minOccurs="0" maxOccurs="1">
+          <xs:annotation>
+            <xs:documentation>
+              <!-- _locID_text="References" _locComment="" -->The References section allows the extension creator to define the de

@@ -1,45 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2019 The Android Open Source Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
-<!--
-    This layout file is used by the AlertDialog when displaying a multi select list of items.
-
-    A left android:gravity will handle text alignment on API 16 and below while
-    android:textAlignment will be used on 17+. A start android:gravity is not added
-    to avoid text being aligned right while a drawable is aligned left in RTL configurations
-    on API 16 and below.
-
-    app:drawableLeftCompat (and app:drawableStartCompat) used instead of android:drawableLeft
-    (and android:drawableStart) because of bug on api 17 that aligned drawable both left and
-    right when in RTL configurations
--->
-<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@android:id/text1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:minHeight="?attr/listPreferredItemHeightSmall"
-    android:gravity="left|center_vertical"
-    android:textAlignment="viewStart"
-    android:paddingLeft="@dimen/abc_select_dialog_padding_start_material"
-    android:paddingRight="?attr/dialogPreferredPadding"
-    android:paddingStart="@dimen/abc_select_dialog_padding_start_material"
-    android:paddingEnd="?attr/dialogPreferredPadding"
-    app:drawableLeftCompat="?android:attr/listChoiceIndicatorMultiple"
-    app:drawableStartCompat="?android:attr/listChoiceIndicatorMultiple"
-    android:drawablePadding="20dp"
-    android:ellipsize="marquee" />
+30.1206 186.599 30.6824 186.954 30.7822C187.268 30.8754 187.656 30.5269 187.795 29.9313C187.928 29.3757 187.767 28.8541 187.419 28.7141C187.064 28.6143 186.71 29.0096 186.577 29.5651Z" fill="#33312D"/>
+<path d="M185.82 24.16C185.587 25.0703 185.307 26.0141 185.034 26.9177C184.668 28.3835 183.593 29.4021 182.884 29.9451C182.55 30.2199 182.471 30.7017 182.692 31.1095C183.081 31.7513 183.544 32.694 183.385 33.4101C183.211 33.959 182.998 34.5012 182.825 35.0501C181.393 34.7311 180.001 34.4187 178.575 34.0595C179.566 30.3046 180.357 26.5165 181.027 22.7086C182.64 23.1812 184.213 23.6472 185.82 24.16Z" fill="url(#paint4_radial_206_48137)"/>
+<path d="M182.007 33.7602C182.321 33.8534 182.556 33.9333 182.75 34.0067C182.991 34.0464 183.192 34.0796 183.392 34.1128C183.593 34.1459 183.801 34.1389 184.048 34.1385C184.296 34.1382 184.51 34.091 184.804 34.0571C184.804 34.0571 184.804 34.0571 184.844 34.0638C184.971 34.0435 185.078 34.1437 185.099 34.2708C185.092 34.311 185.085 34.3511 185.079 34.3913C184.945 34.6992 184.692 34.9873 184.377 35.1417C184.063 35.296 183.682 35.3568 183.314 35.3373C182.946 35.3177 182.598 35.1777 182.303 34.9641C182.008 34.7504 181.807 34.4697 181.7 34.122C181.679 33.9949 181.739 33.881 181.873 33.8206C181.886 33.7403 181.927 33.7469 182.007 33.7602Z" fill="#9B643D"/>
+<path d="M180.74 27.6938C180.607 28.2493 180.768 28.7709 181.116 28.9109C181.431 29.0041 181.819 28.6556 181.958 28.0599C182.091 27.5044 181.89 26.9761 181.582 26.8428C181.227 26.743 180.873 27.1382 180.74 27.6938Z" fill="#33312D"/>
+<path d="M193.546 23.3324C193.546 23.3324 190.303 19.9918 186.34 18.7599C182.344 17.4813 178.304 18.4641 178.304 18.4641C177.579 20.8604 176.773 23.2435 175.926 25.6199C176.428 25.8266 176.924 26.0734 177.426 26.2801C178.28 24.6061 179.06 22.8788 179.834 21.1916C180.027 20.7698 180.509 20.6018 180.984 20.7216C184.117 21.7339 187.256 22.7061 190.389 23.7184C190.857 23.8783 191.199 24.306 191.24 24.8077C191.29 26.7546 191.299 28.6949 191.309 30.6352C191.824 30.7615 192.34 30.8879 192.855 31.0142C193.112 28.458 193.369 25.9018 193.546 23.3324Z" fill="#594539"/>
+<path d="M178.844 39.6725C173.825 38.8437
