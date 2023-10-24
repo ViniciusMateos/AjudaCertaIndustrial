@@ -1,94 +1,64 @@
-ference.MaxVersion" _locComment="" -->The MinVersion and MaxVersion attributes provide an optional range of versions of the missing dependency.
-                        It is up to the developer to ensure a MaxVersion if there are known breaking changes in a newer release.
-                      </xs:documentation>
-                    </xs:annotation>
-                  </xs:attribute>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="Content" minOccurs="0" maxOccurs="1">
-          <xs:annotation>
-            <xs:documentation>
-              <!-- _locID_text="Content" _locComment="" -->The Content section is used to describe the payload in the VSIX.
-              Not all content needs to be described.  Only the extension types need to be defined.
-            </xs:documentation>
-          </xs:annotation>
-          <xs:complexType>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-              <xs:element name="ProjectTemplate" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                  <xs:documentation>
-                    <!-- _locID_text="ProjectTemplate" _locComment="" -->The ProjectTemplate element is a directory name of where the project template zip appears in the VSIX.
-                    This must be a directory.
-                  </xs:documentation>
-                </xs:annotation>
-              </xs:element>
-              <xs:element name="ItemTemplate" minOccurs="0" maxOccurs="1">
-                <xs:annotation>
-                  <xs:documentation>
-                    <!-- _locID_text="ItemTemplate" _locComment="" -->The ItemTemplate element is a directory name of where the item template zip file appears in the VSIX.
-                    This must be a directory.
-                  </xs:documentation>
-                </xs:annotation>
-              </xs:element>
-              <xs:element name="Assembly" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                  <xs:documentation>
-                    <!-- _locID_text="Assembly" _locComment="" -->The Assembly element is used if there is a project or item template which requires a wizard.
-                    The Assembly value will point to the assembly file in the VSIX.
-                  </xs:documentation>
-                </xs:annotation>
-                <xs:complexType>                  
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute name="AssemblyName" type="xs:string" use="required">
-                        <xs:annotation>
-                          <xs:documentation>
-                            <!-- _locID_text="AssemblyName" _locComment="" -->The AssemblyName is the full strong name of the Assembly.  This is required to properly load the template wizard.
-                          </xs:documentation>
-                        </xs:annotation>
-                      </xs:attribute>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="MefComponent" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                  <xs:documentation>
-                    <!-- _locID_text="MefComponent" _locComment="" -->The MefComponent element defines the location of the MEF assembly in the VSIX package.
-                  </xs:documentation>
-                </xs:annotation>
-              </xs:element>
-              <xs:element name="Sample" minOccurs="0" maxOccurs="unbounded">
-                <xs:annotation>
-                  <xs:documentation>
-                    <!-- _locID_text="Sample" _locComment="" -->The Sample element defines the location of the sample folder in the VSIX package.
-                  </xs:documentation>
-                </xs:annotation>
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute name="ProgrammingLanguages" type="xs:string" use="optional">
-                        <xs:annotation>
-                          <xs:documentation>
-                            <!-- _locID_text="ProgrammingLanguages" _locComment="" -->The ProgrammingLanguages is the list of programming languages for projects in the sample.
-                          </xs:documentation>
-                        </xs:annotation>
-                      </xs:attribute>
-                      <xs:attribute name="TargetFrameworks" type="xs:string" use="optional">
-                        <xs:annotation>
-                          <xs:documentation>
-                            <!-- _locID_text="TargetFrameworks" _locComment="" -->The TargetFrameworks is the list of target frameworks for projects in the sample.
-                          </xs:documentation>
-                        </xs:annotation>
-                      </xs:attribute>
-                      <xs:attribute name="CategorizationPath" type="xs:string" use="optional">
-                        <xs:annotation>
-                          <xs:documentation>
-                            <!-- _locID_text="CategorizationPath" _locComment="" -->The CategorizationPath is the path specifying the categorization in the new project dialog.
-                            The path segments should be separated by the '\' character.
-                          </xs:documentation>
-                        </xs:annotation>
-                      </xs:attribute>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d ново известување</item>
+    <item quantity="other">%d нови известувања</item>
+  </plurals>
+    <string name="bottomsheet_action_expand_halfway">Прошири до половина</string>
+    <string name="character_counter_content_description">Внесени се %1$d од %2$d знаци</string>
+    <string name="character_counter_overflowed_content_description">Ограничувањето на знаците надмина %1$d од %2$d</string>
+    <string name="clear_text_end_icon_content_description">Избриши го текстот</string>
+    <string name="error_icon_content_description">Грешка</string>
+    <string name="exposed_dropdown_menu_content_description">Прикажи паѓачко мени</string>
+    <string name="icon_content_description">Икона за дијалог</string>
+    <string name="item_view_role_description">Картичка</string>
+    <string name="material_clock_toggle_content_description">Изберете претпладне или попладне</string>
+    <string name="material_hour_selection">Изберете час</string>
+    <string name="material_hour_suffix">%1$s часот</string>
+    <string name="material_minute_selection">Избери минути</string>
+    <string name="material_minute_suffix">%1$s минути</string>
+    <string name="material_timepicker_am">пр.</string>
+    <string name="material_timepicker_clock_mode_description">Префрлете се на режимот за часовник за да внесете време.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минута</string>
+    <string name="material_timepicker_pm">по.</string>
+    <string name="material_timepicker_select_time">Изберете време</string>
+    <string name="material_timepicker_text_input_mode_description">Префрлете се на режимот за внесување текст за да внесете време.</string>
+    <string name="mtrl_badge_numberless_content_description">Ново известување</string>
+    <string name="mtrl_chip_close_icon_content_description">Отстрани %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Над %1$d нови известувања</string>
+    <string name="mtrl_picker_a11y_next_month">Промени на следниот месец</string>
+    <string name="mtrl_picker_a11y_prev_month">Промени на претходниот месец</string>
+    <string name="mtrl_picker_announce_current_selection">Тековен избор: %1$s</string>
+    <string name="mtrl_picker_cancel">Откажи</string>
+    <string name="mtrl_picker_confirm">Во ред</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Изберете датум</string>
+    <string name="mtrl_picker_date_header_unselected">Избран датум</string>
+    <string name="mtrl_picker_day_of_week_column_header">Колона со денови: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Неважечки формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Користете: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Погрешен опсег.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Оди на %1$s година</string>
+    <string name="mtrl_picker_out_of_range">Надвор од опсег: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Почетен датум - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - краен датум</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Изберете опсег</string>
+    <string name="mtrl_picker_range_header_unselected">Почетен датум - краен датум</string>
+    <string name="mtrl_picker_save">Зачувај</string>
+    <string name="mtrl_picker_text_input_date_hint">Датум</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Краен датум</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Почетен датум</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Префрли на режим за внесување во календарот</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Допрете за да се префрлите на избирање ден</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Префрли на режим за внесување текст</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Допрете за да се префрлите на избирање година</string>
+    <string name="mtrl_timepicker_cancel">Откажи</string>
+    <string name="mtrl_timepicker_confirm">Во ред</string>
+    <string name="password_toggle_content_description">Прикажи ја лозинката</string>
+</resources>

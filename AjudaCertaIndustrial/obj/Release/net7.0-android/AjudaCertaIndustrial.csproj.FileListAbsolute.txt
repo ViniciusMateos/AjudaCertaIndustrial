@@ -1,11 +1,6 @@
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudaCertaIndustrial.runtimeconfig.json
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudaCertaIndustrial.dll
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudaCertaIndustrial.pdb
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\com.companyname.ajudacertaindustrial.apk
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\com.companyname.ajudacertaindustrial.aab
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\com.companyname.ajudacertaindustrial-Signed.aab
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\com.companyname.ajudacertaindustrial-Signed.apk
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\com.companyname.ajudacertaindustrial-Signed.apk.idsig
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\build.props
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\adb.props
@@ -162,10 +157,7 @@ C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\AjudaCertaIndustrial.pdb
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\AjudaCertaIndustrial.genruntimeconfig.cache
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\AjudaCertaIndustrial.runtimeconfig.json.bin
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\com.companyname.ajudacertaindustrial.apk
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\base.zip
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\com.companyname.ajudacertaindustrial.aab
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\com.companyname.ajudacertaindustrial.apks
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\res\values\colors.xml
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\uploadflags.txt
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\resolvedassemblies.hash
@@ -443,7 +435,6 @@ C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\src\mono\com\google\android\material\tabs\TabLayout_BaseOnTabSelectedListenerImplementor.java
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\packaged_resources
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\src\com\companyname\ajudacertaindustrial\R.java
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\compressed_assemblies.armeabi-v7a.ll
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\compressed_assemblies.arm64-v8a.ll
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\compressed_assemblies.x86.ll
@@ -478,3 +469,12 @@ C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudacCerta.AjudacCerta.apk
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudacCerta.AjudacCerta.aab
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudacCerta.AjudacCerta-Signed.aab
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudacCerta.AjudacCerta-Signed.apk
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\AjudacCerta.AjudacCerta-Signed.apk.idsig
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\AjudacCerta.AjudacCerta.apk
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\AjudacCerta.AjudacCerta.aab
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\bin\AjudacCerta.AjudacCerta.apks
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Release\net7.0-android\android\src\ajudaccerta\ajudaccerta\R.java

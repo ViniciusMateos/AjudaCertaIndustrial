@@ -1,16 +1,57 @@
-    C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\bin
-[9:24:06 PM] [General] [Info]         C:\Program Files\Docker\Docker\resources\bin
-[9:24:06 PM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\
-[9:24:06 PM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\bin
-[9:24:06 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\DTS\Binn\
-[9:24:06 PM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ -> C:\Program Files\Microsoft SQL Server\150\DTS\Binn\bin
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Programs\Python\Python311\Scripts\
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Programs\Python\Python311\Scripts\ -> C:\Users\etechas\AppData\Local\Programs\Python\Python311\Scripts\bin
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Programs\Python\Python311\
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Programs\Python\Python311\ -> C:\Users\etechas\AppData\Local\Programs\Python\Python311\bin
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Microsoft\WindowsApps
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\AppData\Local\Microsoft\WindowsApps -> C:\Users\etechas\AppData\Local\Microsoft\WindowsApps\bin
-[9:24:06 PM] [General] [Info]         C:\Program Files\Azure Data Studio\bin
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\.dotnet\tools
-[9:24:06 PM] [General] [Info]         C:\Users\etechas\.dotnet\tools -> C:\Users\etechas\.dotnet\tools\bin
-[9:24:06 PM] [General] [Info]         C:\Users\etech
+package crc6452ffdc5b34af3a0f;
+
+
+public class MauiShapeView
+	extends crc643f2b18b2570eaa5a.PlatformGraphicsView
+	implements
+		mono.android.IGCUserPeer
+{
+/** @hide */
+	public static final String __md_methods;
+	static {
+		__md_methods = 
+			"";
+		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiShapeView, Microsoft.Maui", MauiShapeView.class, __md_methods);
+	}
+
+
+	public MauiShapeView (android.content.Context p0)
+	{
+		super (p0);
+		if (getClass () == MauiShapeView.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.MauiShapeView, Microsoft.Maui", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
+	}
+
+
+	public MauiShapeView (android.content.Context p0, android.util.AttributeSet p1)
+	{
+		super (p0, p1);
+		if (getClass () == MauiShapeView.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.MauiShapeView, Microsoft.Maui", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
+		}
+	}
+
+
+	public MauiShapeView (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	{
+		super (p0, p1, p2);
+		if (getClass () == MauiShapeView.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Platform.MauiShapeView, Microsoft.Maui", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2 });
+		}
+	}
+
+	private java.util.ArrayList refList;
+	public void monodroidAddReference (java.lang.Object obj)
+	{
+		if (refList == null)
+			refList = new java.util.ArrayList ();
+		refList.add (obj);
+	}
+
+	public void monodroidClearReferences ()
+	{
+		if (refList != null)
+			refList.clear ();
+	}
+}

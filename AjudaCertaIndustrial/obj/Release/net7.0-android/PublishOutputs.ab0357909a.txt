@@ -1,3 +1,2 @@
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\publish\com.companyname.ajudacertaindustrial-Signed.aab
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\publish\com.companyname.ajudacertaindustrial.aab
-C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\publish\com.companyname.ajudacertaindustrial-Signed.apk
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\publish\AjudacCerta.AjudacCerta-Signed.apk
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\bin\Release\net7.0-android\publish\AjudacCerta.AjudacCerta.apk

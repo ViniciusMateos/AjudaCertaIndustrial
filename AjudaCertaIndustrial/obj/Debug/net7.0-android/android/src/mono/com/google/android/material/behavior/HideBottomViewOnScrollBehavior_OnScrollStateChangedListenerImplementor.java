@@ -1,49 +1,8 @@
-package mono.com.google.android.material.behavior;
-
-
-public class HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor
-	extends java.lang.Object
-	implements
-		mono.android.IGCUserPeer,
-		com.google.android.material.behavior.HideBottomViewOnScrollBehavior.OnScrollStateChangedListener
-{
-/** @hide */
-	public static final String __md_methods;
-	static {
-		__md_methods = 
-			"n_onStateChanged:(Landroid/view/View;I)V:GetOnStateChanged_Landroid_view_View_IHandler:Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior/IOnScrollStateChangedListenerInvoker, Xamarin.Google.Android.Material\n" +
-			"";
-		mono.android.Runtime.register ("Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListenerImplementor, Xamarin.Google.Android.Material", HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor.class, __md_methods);
-	}
-
-
-	public HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor ()
-	{
-		super ();
-		if (getClass () == HideBottomViewOnScrollBehavior_OnScrollStateChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("Google.Android.Material.Behavior.HideBottomViewOnScrollBehavior+IOnScrollStateChangedListenerImplementor, Xamarin.Google.Android.Material", "", this, new java.lang.Object[] {  });
-		}
-	}
-
-
-	public void onStateChanged (android.view.View p0, int p1)
-	{
-		n_onStateChanged (p0, p1);
-	}
-
-	private native void n_onStateChanged (android.view.View p0, int p1);
-
-	private java.util.ArrayList refList;
-	public void monodroidAddReference (java.lang.Object obj)
-	{
-		if (refList == null)
-			refList = new java.util.ArrayList ();
-		refList.add (obj);
-	}
-
-	public void monodroidClearReferences ()
-	{
-		if (refList != null)
-			refList.clear ();
-	}
-}
+ecking SHA256 for path: C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix
+[3264:001b][2023-09-12T09:57:56] SHA256 verification for 'C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix' succeeded. Hash: 689D11BBAE5023FE6E2F57F5BD6E360AF388CE8116D473707241B51B79FA3DFE
+[3264:001b][2023-09-12T09:57:56] Checking SHA256 for path: C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix
+[3264:001b][2023-09-12T09:57:56] SHA256 verification for 'C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix' succeeded. Hash: 689D11BBAE5023FE6E2F57F5BD6E360AF388CE8116D473707241B51B79FA3DFE
+[3264:001b][2023-09-12T09:57:56] Checking SHA256 for path: C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix
+[3264:001a][2023-09-12T09:57:56] SHA256 verification for 'C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.Net.6.Runtime.3AEA30C331B166FD93D4\dotnet-runtime-x64.zip' succeeded. Hash: C506F0F7B5C5E836C3965B2541DB0B9F721F3474B1D9A81696F9CCD678672C39
+[3264:001a][2023-09-12T09:57:56] Checking SHA256 for path: C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.Net.6.Runtime.3AEA30C331B166FD93D4\dotnet-runtime-x64.zip
+[3264:001b][2023-09-12T09:57:56] SHA256 verification for 'C:\Users\etechas\AppData\Local\Temp\uwjsaq5d\Microsoft.VisualStudio.Community.ProductArch.Resources.Neutral.EEFE613CCF078354FD98\payload.vsix' succeeded. Hash: 689D11BBAE5023FE6E2F57F5BD6E360AF

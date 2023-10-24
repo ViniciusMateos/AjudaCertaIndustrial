@@ -1,1 +1,33 @@
-�方法的所有重载和重写必须共享 {1}.{2} 的常见值。K已获得执行“{0}”的请求，但没有回调对象。删除请求。*写入 JSON RPC 结果 {0} 时出错：{1}3反序列化传入 JSON RPC“{0}”时失败：{1}1服务器方法 {0} 引发了严重的异常: {1}9缓冲区为空。请先调用异步方法进行填充。:无法将 Content-Length 标头分析为一个正整数。6邮件标头的大小超出了支持的最大大小。*启动消息侦听后不允许此操作。*启动消息侦听前不允许此操作。JSON RPC 不得为 null。,{0} 具有不受支持的 ref 或 out 参数J{0} 参数（排除任何 CancellationToken）：{1}，但请求提供 {2}${0} 个参数与请求不兼容: {1}必须先开始侦听。*侦听开始后，无法完成此操作。!必须提供一个非负整数。参数不是单对象的形式必须提供一个正整数。已达到流结尾。/从流读取 JSON RPC 失败，出现 {0}：{1}响应不是错误。$找不到名为“{0}”的方法。已释放流流必须可读。流必须可写。-{0} 和 {1} 参数超�
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2021 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:left="2dp"
+      android:right="2dp">
+    <shape
+        android:shape="rectangle">
+      <solid android:color="@android:color/white"/>
+      <corners
+          android:bottomLeftRadius="0dp"
+          android:bottomRightRadius="0dp"
+          android:topLeftRadius="3dp"
+          android:topRightRadius="3dp"/>
+      <size android:height="3dp"/>
+    </shape>
+  </item>
+</layer-list>

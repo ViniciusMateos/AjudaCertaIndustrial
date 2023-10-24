@@ -74,8 +74,7 @@
                     />
 
                 <Picker Grid.Row="2"
-                        TitleColor="White"
-                        
+                        TitleColor="#FFFFF1"
                         TextColor="White"
                         Title="Digite seu gênero"
                         ItemsSource="{Binding ListaGenero}"
@@ -107,10 +106,7 @@
 
                 <Button
                     x:Name="btnContinuar"
-                    Grid.Row="4"
-                    Margin="0,100,0,0"
-                    Text="Continuar"
-                    FontSize="24"
+                    Grid.Row="4"                    
                     BackgroundColor="#DF6234"
                     CornerRadius="25"
                     WidthRequest="275"
@@ -119,7 +115,15 @@
                     Command="{Binding RegistrarPessoaCommand}"
                     />
                 
-                
+                <Label
+                    Grid.Row="4"
+                    Text="Continuar"
+                    FontSize="24"
+                    TextColor="White"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+                    
 
             </Grid>
             

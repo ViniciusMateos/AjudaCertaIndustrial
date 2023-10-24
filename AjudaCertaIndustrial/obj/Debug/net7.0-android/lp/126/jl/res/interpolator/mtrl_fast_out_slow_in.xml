@@ -1,1 +1,19 @@
-�因为每台计算机上都安装有此扩展。2VSIX 清单不在缓存中，并且无法卸载。?“{0}”的 VSIX 清单不在缓存中，并且无法卸载。0在包中找不到此 VSIX 扩展清单文件。<此计算机上不具有此 VSIX 扩展需要的某些引用:没有安装 VSIX 扩展需要的 .NET Framework 版本。嵌套扩展安装失败。D必须具有管理权限，才能使用 /admin 开关进行安装。未安装此扩展。_无法将此 VSIX 扩展还原为已安装状态，因为未通过 VSIX 卸载 API 卸载它。j此 VSIX 包安装正在尝试访问 Internet，但是 Internet 连接需要你输入用户名和密码。H无法安装此 VSIX 扩展，因为无法满足其引用的一个约束B无法在�
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<!-- MotionSpec replaces this with a fast out slow in interpolator. -->
+<accelerateDecelerateInterpolator />

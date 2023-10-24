@@ -599,3 +599,4 @@ C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\n
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-ios\iossimulator-x64\AjudaCertaIndustrial.pdb
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-ios\iossimulator-x64\AjudaCertaIndustrial.genruntimeconfig.cache
 C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-ios\iossimulator-x64\ref\AjudaCertaIndustrial.dll
+C:\Arquivos\3AI\AjudaCerta\AjudaCertaIndustrial\AjudaCertaIndustrial\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
